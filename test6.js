@@ -144,10 +144,10 @@ for(i=1; i < 100; i++)
 for(i=1; i < 100; i++)
   test3(i);
   
-for(i=1; i < 100; i++)
+for(i=1; i < 500; i++)
   test4(i);
   
-for(i=1; i < 100; i++)
+for(i=1; i < 500; i++)
   test5(i);
   
 for(i=1; i < 100; i++)
