@@ -1,13 +1,12 @@
 // Have some comments in the js file! LARAC
 /*LEZ
-<<<<<<< HEAD
 test, 0;
 test2, 0;
 test3, 0;
 test4, 0;
+test4, 2, 1;
+test5,2,1;
 test5, 0;
-test5, 2,1;
-test6, 2,1;
 test6, 0;
 */
 function test(obj) {
@@ -47,11 +46,6 @@ function test3(obj){
 }
 for(i=1; i < 100; i++)
   test3(i);
-=======
-test4, 0;
-*/
-
->>>>>>> e02e9da18a1dd0abf74ccb87c4dcbe070cbc662e
 function test4(obj){
     var b = obj*2+obj + 77;
     c = 91;
@@ -62,7 +56,6 @@ function test4(obj){
     b = c - b;
     return b * 2 / 4;
 }
-<<<<<<< HEAD
   
 for(i=1; i < 500; i++)
   test4(i);
@@ -151,10 +144,3 @@ function test10(obj){
   
 for(i=1; i < 100; i++)
   test10(i);
-=======
-
-
-for(i=1; i < 500; i++)
-  test4(i);
-
->>>>>>> e02e9da18a1dd0abf74ccb87c4dcbe070cbc662e
