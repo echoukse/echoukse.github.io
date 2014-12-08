@@ -18,7 +18,7 @@ function test(obj) {
        c = a+b;
     b = 24 * 1334 + 434;
     b = c + 32;
-    b = c - b;
+    b = c + b;
     return b * 2 / 4;
 }
 function test2(obj){
