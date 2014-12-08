@@ -1,15 +1,11 @@
 // Have some comments in the js file! LARAC
 /*LEZ
-test, 1;
-test2, 1;
-test3, 1;
-test4, 1;
-test5, 1;
-test6, 1;
-test7, 1;
-test8, 1;
-test9, 1;
-test10, 1;
+test, 0;
+test2, 0;
+test3, 0;
+test4, 0;
+test5, 0;
+test6, 0;
 */
 function test(obj) {
     var b = obj*2+obj + 87;
