@@ -1,17 +1,15 @@
 // Have some comments in the js file! LARAC
 /*LEZ
-test, 2,1;
-test2, 2,1;
-test3, 2,1;
-test4, 2,1;
-test5, 2,1;
-test6, 2,1;
+test, 2,5;
+test2, 2,5;
+test3, 2,5;
+test4, 2,5;
+test5, 2,5;
+test6, 2,5;
 */
 function test(obj) {
     var b = obj*2+obj + 87;
     c = 91;
-    if(3 == b)
-       c = a+b;
     b = 24 * 1334 + 434;
     b = c + 32;
     b = c - b;
@@ -22,8 +20,6 @@ for(i=1; i < 100; i++)
 function test2(obj){
     var b = obj*2+obj + 77;
     c = 91;
-    if(3 == b)
-       c = a+b;
     b = 24 * 1334 + 434;
     b = c + 32;
     b = c - b;
