@@ -3,7 +3,13 @@
 test, 0;
 test2, 0;
 */
+var abc = 20;
+
 function test() {
+    c = abc;
+    b = 24 * 1334 + 434;
+    b = c + 32;
+    abc = c - b;
     return 2;
 }
 function test2(obj){
