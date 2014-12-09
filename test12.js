@@ -56,7 +56,10 @@ function test5(obj){
     b = 24 * 1334 + 4341;
     b = c + 32;
     b = c - b;
-    b=test4(4);
+    if(obj%2==0)
+      b=test4(4);
+    else
+      b=test2(1);
     return b * 2 / 4;
 }
 function test6(obj){
