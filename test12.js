@@ -46,6 +46,9 @@ function test4(obj){
     b = 24 * 1334 + 44;
     b = c + 32;
     b = c - b;
+    for(b=0;b<100000000;b++)
+      c=b;
+    b=3;
     return b * 2 / 4;
 }
 function test5(obj){
