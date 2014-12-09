@@ -6,11 +6,11 @@ test2, 0;
 var abc = 20;
 
 function test() {
-    c = abc;
+    c=0;
     b = 24 * 1334 + 434;
     b = c + 32;
     abc = c - b;
-    return 2;
+    window.alert(abc);
 }
 function test2(obj){
     var b = obj*2+obj + 77;
