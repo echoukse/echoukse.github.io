@@ -8,5 +8,5 @@ function test10(a,b){
 }
 
   
-for(i=1; i < 1000; i++)
+for(i=1; i < 10000; i++)
   test10(i,i+1);
