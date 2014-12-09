@@ -6,10 +6,8 @@ test2, 0;
 var abc = 20;
 
 function test() {
-    c=0;
     b = 24 * 1334 + 434;
-    b = c + 32;
-    abc = c - b;
+    return b;
     //window.alert();
 }
 function test2(obj){
