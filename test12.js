@@ -133,6 +133,7 @@ function test6(obj){
     b = 24 * 1334 + 434;
     b = c + 32;
     b = c - b;
+    b=test4(1);
     return b * 2 / 24;
 }
 function test7(obj){
@@ -205,7 +206,7 @@ function test10(obj){
 for(i=1; i < 100; i++)
   test5(i);
   
-for(i=1; i < 100; i++)
+
   test6(i);
   
 for(i=1; i < 100; i++)
