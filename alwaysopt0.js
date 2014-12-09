@@ -9,8 +9,6 @@ function test() {
 function test2(obj){
     var b = obj*2+obj + 77;
     c = 91;
-    if(3 == b)
-       c = a+b;
     b = 24 * 1334 + 434;
     b = c + 32;
     b = c - b;
