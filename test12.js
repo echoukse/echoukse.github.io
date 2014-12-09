@@ -122,7 +122,7 @@ function test5(obj){
     c = 91;
     if(3 == b)
        c = a+b;
-    b=test4(1);
+    //b=test4(1);
     return b * 2 / 4;
 }
 function test6(obj){
@@ -133,7 +133,10 @@ function test6(obj){
     b = 24 * 1334 + 434;
     b = c + 32;
     b = c - b;
-    b=test4(1);
+    if(obj==1)
+      b=test4(1.4);
+    else
+      b=0;;
     return b * 2 / 24;
 }
 function test7(obj){
@@ -209,11 +212,15 @@ for(i=1; i < 100; i++)
 
   test6(i);
   
+  test6(3);
 for(i=1; i < 100; i++)
   test7(i);
   
 for(i=1; i < 100; i++)
   test8(i);
+  
+  
+  test6(1);
   
 for(i=1; i < 100; i++)
   test9(i);
