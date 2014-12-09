@@ -10,7 +10,7 @@ function test() {
     b = 24 * 1334 + 434;
     b = c + 32;
     abc = c - b;
-    window.alert(abc);
+    //window.alert();
 }
 function test2(obj){
     var b = obj*2+obj + 77;
