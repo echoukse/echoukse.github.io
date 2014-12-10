@@ -1,8 +1,8 @@
 // The LEZ comments here say that the test function should ALWAYS be optimized
 /*LEZ
-test, 2, 2;
-test2, 2, 2;
-test3, 2, 2;
+test, 2, 20;
+test2, 2, 20;
+test3, 2, 20;
 */
 var abc = 20;
 
@@ -42,13 +42,6 @@ function test3(obj) {
     return b * 2;
 }
 
-test(4);
-test(5);
-
-test2(3);
-test2(4);
-test3(5);
-test3(5);
 for(i=1; i < 150; i++)
   j=test(i);
 
