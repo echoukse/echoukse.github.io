@@ -14,7 +14,7 @@ function test(obj) {
     while(i < 100)
       i++;
     b = c - b;
-    return b * 2 / 4;
+    return b * 2;
 
 }
 function test2(obj) {
@@ -26,7 +26,7 @@ function test2(obj) {
     while(i < 100)
       i++;
     b = c - b;
-    return b * 2 /3;
+    return b * 2;
 }
 
 for(i=1; i < 1500; i++)
