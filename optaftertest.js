@@ -1,7 +1,7 @@
 // The LEZ comments here say that the test function should ALWAYS be optimized
 /*LEZ
-test, 2, 2;
-test2, 2, 2;
+test, 2, 10;
+test2, 2, 10;
 */
 var abc = 20;
 
@@ -10,8 +10,6 @@ function test(obj) {
     c = 91;
     b = 24 * 1334 + 434;
     b = c + 32;
-    if(obj == 1)
-      return 3;
     var i = 0;
     while(i < 100)
       i++;
@@ -24,8 +22,6 @@ function test2(obj) {
     c = 91;
     b = 24 * 1334 + 434;
     b = c + 32;
-    if(obj == 1)
-      return 3;
     var i = 0;
     while(i < 100)
       i++;
