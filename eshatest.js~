@@ -261,6 +261,39 @@ for(i=1; i < 1000; i++)
 for(i=1; i<1000; i++)
   k = test9(i);
 
+
+for(i=1; i<1000; i++)
+  k = test10(i);
+
+
+for(i=1; i < 1000; i++)
+  j=test11(i);
+
+for(i=1; i < 1000; i++)
+  k = test12(i);
+
+for(i=1; i<1000; i++)
+  k = test13(i);
+
+
+for(i=1; i < 1000; i++)
+  j=test14(i);
+
+for(i=1; i < 1000; i++)
+  k=test15(i);
+
+for(i=1; i<1000; i++)
+  k = test16(i);
+  
+
+for(i=1; i < 1000; i++)
+  j=test17(i);
+
+for(i=1; i < 1000; i++)
+  k=test18(i);
+
+for(i=1; i<1000; i++)
+  k = test19(i);
 for (i =1; i<1000; i++)
   if(i == 3)
      console.log("a");
