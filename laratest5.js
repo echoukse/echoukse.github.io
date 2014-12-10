@@ -13,6 +13,8 @@ function test(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
+    while(i < 10)
+      i++;
     b = c - b;
     return b * 2;
 
