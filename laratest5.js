@@ -1,6 +1,7 @@
 // The LEZ comments here say that the test function should ALWAYS be optimized
 /*LEZ
 test, 2, 10;
+test, 3, 5;
 test2, 2, 10;
 test3, 2, 10;
 */
