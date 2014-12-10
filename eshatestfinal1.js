@@ -266,69 +266,69 @@ function test19(obj) {
 
 
 
-for(i=1; i < 500; i++)
+for(i=1; i < 900; i++)
   j=test(i);
 
-for(i=1; i < 500; i++)
+for(i=1; i < 900; i++)
   k = test2(i);
 
-for(i=1; i<500; i++)
+for(i=1; i<900; i++)
   k = test3(i);
 
 
-for(i=1; i < 500; i++)
+for(i=1; i < 900; i++)
   j=test4(i);
 
-for(i=1; i < 500; i++)
+for(i=1; i < 900; i++)
   k=test5(i);
 
-for(i=1; i<500; i++)
+for(i=1; i<900; i++)
   k = test6(i);
   
 
-for(i=1; i < 500; i++)
+for(i=1; i < 900; i++)
   j=test7(i);
 
-for(i=1; i < 500; i++)
+for(i=1; i < 900; i++)
   k=test8(i);
 
-for(i=1; i<500; i++)
+for(i=1; i<900; i++)
   k = test9(i);
 
 
-for(i=1; i<500; i++)
+for(i=1; i<900; i++)
   k = test10(i);
 
 
-for(i=1; i < 500; i++)
+for(i=1; i < 900; i++)
   j=test11(i);
 
-for(i=1; i < 500; i++)
+for(i=1; i < 900; i++)
   k = test12(i);
 
-for(i=1; i<500; i++)
+for(i=1; i<900; i++)
   k = test13(i);
 
 
-for(i=1; i < 500; i++)
+for(i=1; i < 900; i++)
   j=test14(i);
 
-for(i=1; i < 500; i++)
+for(i=1; i < 900; i++)
   k=test15(i);
 
-for(i=1; i<500; i++)
+for(i=1; i<900; i++)
   k = test16(i);
   
 
-for(i=1; i < 500; i++)
+for(i=1; i < 900; i++)
   j=test17(i);
 
-for(i=1; i < 500; i++)
+for(i=1; i < 900; i++)
   k=test18(i);
 
-for(i=1; i<500; i++)
+for(i=1; i<900; i++)
   k = test19(i);
-for (i =1; i<5000; i++)
+for (i =1; i<9000; i++)
   if(i == 3)
      console.log("a");
 
