@@ -109,6 +109,129 @@ function test9(obj) {
     b = c - b;
     return b * 2;
 }
+
+
+
+function test10(obj) {
+    var b = obj*2+obj + 77;
+    c = 91;
+    b = 24 * 1334 + 434;
+    b = c + 32;
+    var i = 0;
+    while(i < 10)
+       i++;
+    b = c - b;
+    return b * 2;
+
+}
+
+function test11(obj) {
+    var b = obj*2+obj + 77;
+    c = 91;
+    b = 24 * 1334 + 434;
+    b = c + 32;
+    var i = 0;
+    while(i < 10)
+       i++;
+    b = c - b;
+    return b * 2;
+
+}
+function test12(obj) {
+    var b = obj*2+obj + 77;
+    c = 91;
+    b = 24 * 1334 + 434;
+    b = c + 32;
+    var i = 0;
+    while(i < 10)
+      i++;
+    b = c - b;
+    return b * 2;
+}
+
+function test13(obj) {
+    var b = obj*2+obj + 77;
+    c = 91;
+    b = 24 * 1334 + 434;
+    b = c + 32;
+    var i = 0;
+    while(i < 10)
+      i++;
+    b = c - b;
+    return b * 2;
+}
+
+function test14(obj) {
+    var b = obj*2+obj + 77;
+    c = 91;
+    b = 24 * 1334 + 434;
+    b = c + 32;
+    var i = 0;
+    while(i < 10)
+      i++;
+    b = c - b;
+    return b * 2;
+}
+function test15(obj) {
+    var b = obj*2+obj + 77;
+    c = 91;
+    b = 24 * 1334 + 434;
+    b = c + 32;
+    var i = 0;
+    while(i < 10)
+      i++;
+    b = c - b;
+    return b * 2;
+}
+function test16(obj) {
+    var b = obj*2+obj + 77;
+    c = 91;
+    b = 24 * 1334 + 434;
+    b = c + 32;
+    var i = 0;
+    while(i < 10)
+      i++;
+    b = c - b;
+    return b * 2;
+}
+function test17(obj) {
+    var b = obj*2+obj + 77;
+    c = 91;
+    b = 24 * 1334 + 434;
+    b = c + 32;
+    var i = 0;
+    while(i < 10)
+      i++;
+    b = c - b;
+    return b * 2;
+}
+function test18(obj) {
+    var b = obj*2+obj + 77;
+    c = 91;
+    b = 24 * 1334 + 434;
+    b = c + 32;
+    var i = 0;
+    while(i < 10)
+      i++;
+    b = c - b;
+    return b * 2;
+}
+function test19(obj) {
+    var b = obj*2+obj + 77;
+    c = 91;
+    b = 24 * 1334 + 434;
+    b = c + 32;
+    var i = 0;
+    while(i < 10)
+      i++;
+    b = c - b;
+    return b * 2;
+}
+
+
+
+
+
 for(i=1; i < 1000; i++)
   j=test(i);
 
@@ -138,6 +261,39 @@ for(i=1; i < 1000; i++)
 for(i=1; i<1000; i++)
   k = test9(i);
 
+
+for(i=1; i<1000; i++)
+  k = test10(i);
+
+
+for(i=1; i < 1000; i++)
+  j=test11(i);
+
+for(i=1; i < 1000; i++)
+  k = test12(i);
+
+for(i=1; i<1000; i++)
+  k = test13(i);
+
+
+for(i=1; i < 1000; i++)
+  j=test14(i);
+
+for(i=1; i < 1000; i++)
+  k=test15(i);
+
+for(i=1; i<1000; i++)
+  k = test16(i);
+  
+
+for(i=1; i < 1000; i++)
+  j=test17(i);
+
+for(i=1; i < 1000; i++)
+  k=test18(i);
+
+for(i=1; i<1000; i++)
+  k = test19(i);
 for (i =1; i<1000; i++)
   if(i == 3)
      console.log("a");
