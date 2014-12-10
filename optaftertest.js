@@ -42,9 +42,16 @@ function test3(obj) {
     return b * 2;
 }
 
-for(i=1; i < 1500; i++)
+for(i=1; i < 1000; i++)
   j=test(i);
 
-for(i=1; i < 1500; i++)
+for(i=1; i < 1000; i++)
   k=test2(i);
+
+for(i=1; i<1000; i++)
+  k = test3(i);
+
+for (i =1; i<1000; i++)
+  if(i == 3)
+     console.log("a");
 
