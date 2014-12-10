@@ -11,11 +11,9 @@ function test(obj) {
     b = c + 32;
     if(obj == 1)
       return 3;
-    console.log(b);
     i = 0;
     while(i < 100)
       i++;
-    console.log(i);
     b = c - b;
     return b * 2 / 4;
 
