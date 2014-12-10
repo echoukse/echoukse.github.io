@@ -11,7 +11,7 @@ function test(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     b = c - b;
-    for(b=0;b<100000000;b++)
+    for(b=0;b<100000;b++)
      c=b;
     return b * 2 / 4;
 
