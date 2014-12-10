@@ -24,7 +24,7 @@ function test2(obj){
 }
   
 for(i=1; i < 10000000; i++)
-  test(1);
+  j=test(i);
 for(i=1; i < 10000000; i++)
-  test2(i);
+  k=test2(i);
 
