@@ -12,7 +12,7 @@ function test(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    if(obj==2)
+    if(obj < 3)
      while(i < 150)
        i++;
     b = c - b;
