@@ -25,7 +25,7 @@ function test2(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 100000)
+    while(i < 10)
       i++;
     b = c - b;
     return b * 2;
@@ -37,20 +37,106 @@ function test3(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 100000)
+    while(i < 10)
       i++;
     b = c - b;
     return b * 2;
 }
 
+function test4(obj) {
+    var b = obj*2+obj + 77;
+    c = 91;
+    b = 24 * 1334 + 434;
+    b = c + 32;
+    var i = 0;
+    while(i < 10)
+      i++;
+    b = c - b;
+    return b * 2;
+}
+function test5(obj) {
+    var b = obj*2+obj + 77;
+    c = 91;
+    b = 24 * 1334 + 434;
+    b = c + 32;
+    var i = 0;
+    while(i < 10)
+      i++;
+    b = c - b;
+    return b * 2;
+}
+function test6(obj) {
+    var b = obj*2+obj + 77;
+    c = 91;
+    b = 24 * 1334 + 434;
+    b = c + 32;
+    var i = 0;
+    while(i < 10)
+      i++;
+    b = c - b;
+    return b * 2;
+}
+function test7(obj) {
+    var b = obj*2+obj + 77;
+    c = 91;
+    b = 24 * 1334 + 434;
+    b = c + 32;
+    var i = 0;
+    while(i < 10)
+      i++;
+    b = c - b;
+    return b * 2;
+}
+function test8(obj) {
+    var b = obj*2+obj + 77;
+    c = 91;
+    b = 24 * 1334 + 434;
+    b = c + 32;
+    var i = 0;
+    while(i < 10)
+      i++;
+    b = c - b;
+    return b * 2;
+}
+function test9(obj) {
+    var b = obj*2+obj + 77;
+    c = 91;
+    b = 24 * 1334 + 434;
+    b = c + 32;
+    var i = 0;
+    while(i < 10)
+      i++;
+    b = c - b;
+    return b * 2;
+}
 for(i=1; i < 1000; i++)
   j=test(i);
 
-for(i=1; i < 100; i++)
-  k=test2(i);
+for(i=1; i < 1000; i++)
+  k = test2(i);
 
-for(i=1; i<100; i++)
+for(i=1; i<1000; i++)
   k = test3(i);
+
+
+for(i=1; i < 1000; i++)
+  j=test4(i);
+
+for(i=1; i < 1000; i++)
+  k=test5(i);
+
+for(i=1; i<1000; i++)
+  k = test6(i);
+  
+
+for(i=1; i < 1000; i++)
+  j=test7(i);
+
+for(i=1; i < 1000; i++)
+  k=test8(i);
+
+for(i=1; i<1000; i++)
+  k = test9(i);
 
 for (i =1; i<1000; i++)
   if(i == 3)
