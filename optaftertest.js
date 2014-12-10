@@ -48,7 +48,7 @@ test(5);
 test2(3);
 test2(4);
 test3(5);
-test4(5);
+test3(5);
 for(i=1; i < 129; i++)
   j=test(i);
 
