@@ -31,7 +31,7 @@ function test3(obj) {
     return b * 2;
 }
 
-for(i=1; i < 1000; i++)
+for(i=1; i < 1000000; i++)
   j=test(i);
 
 for(i=1; i<100; i++)
