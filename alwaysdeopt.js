@@ -23,8 +23,8 @@ function test2(obj){
     return b * 2 / 4;
 }
   
-for(i=1; i < 1000; i++)
+for(i=1; i < 100000; i++)
   test(1);
-for(i=1; i < 1000; i++)
+for(i=1; i < 100000; i++)
   test2(i);
 
