@@ -13,7 +13,25 @@ function test(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 10)
+    var j = 0;
+    var k = 0;
+    var m = 0;
+    while(i < 29){
+      j = 0;
+      while (j < 29){
+       k = 0;
+        while (k < 29){
+          m = 0;
+          while (m < 29){
+             m++;
+          }
+          k++;
+        }
+        j++;
+      }
+      i++;
+    }
+
       i++;
     b = c - b;
     return b * 2;
@@ -31,7 +49,7 @@ function test3(obj) {
     return b * 2;
 }
 
-for(i=1; i < 1000000; i++)
+for(i=1; i < 1000; i++)
   j=test(i);
 
 for(i=1; i<100; i++)
