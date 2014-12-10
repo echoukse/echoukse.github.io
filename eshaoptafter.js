@@ -42,13 +42,13 @@ function test3(obj) {
     return b * 2;
 }
 
-for(i=1; i < 150; i++)
+for(i=1; i < 100; i++)
   j=test(i);
 
-for(i=1; i < 150; i++)
+for(i=1; i < 100; i++)
   k=test2(i);
 
-for(i=1; i<150; i++)
+for(i=1; i<100; i++)
   k = test3(i);
 
 for (i =1; i<1000; i++)
