@@ -14,6 +14,6 @@ function test(obj) {
 
 }
   
-for(i=1; i < 1100; i++)
+for(i=1; i < 20q00; i++)
   j=test(i);
 
