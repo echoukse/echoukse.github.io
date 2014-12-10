@@ -4,7 +4,7 @@ test, 1;
 */
 var abc = 20;
 
-function test(obj) {
+function test1(obj) {
     var b = obj*2+obj + 77;
     c = 91;
     b = 24 * 1334 + 434;
@@ -14,5 +14,5 @@ function test(obj) {
 
 }
   
-for(i=1; i < 600; i++)
-  j=test(i);
+for(i=1; i < 1000; i++)
+  j=test1(i);
