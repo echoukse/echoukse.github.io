@@ -1,6 +1,6 @@
 // The LEZ comments here say that the test function should ALWAYS be optimized
 /*LEZ
-test, 1;
+test1, 1;
 */
 var abc = 20;
 
