@@ -2,6 +2,24 @@
 /*LEZ
 test, 2, 10;
 test, 3, 5;
+test2, 3, 5;
+test3, 3, 5;
+test4, 3, 5;
+test5, 3, 5;
+test6, 3, 5;
+test7, 3, 5;
+test8, 3, 5;
+test9, 3, 5;
+test10, 3, 5;
+test11, 3, 5;
+test12, 3, 5;
+test13, 3, 5;
+test14, 3, 5;
+test15, 3, 5;
+test16, 3, 5;
+test17, 3, 5;
+test18, 3, 5;
+test19, 3, 5;
 test2, 2, 10;
 test3, 2, 10;
 */
