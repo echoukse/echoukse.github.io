@@ -47,7 +47,7 @@ function test(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 10)
+    while(i < 30)
        i++;
     b = c - b;
     return b * 2;
@@ -59,7 +59,7 @@ function test2(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 10)
+    while(i < 30)
       i++;
     b = c - b;
     return b * 2;
@@ -71,7 +71,7 @@ function test3(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 10)
+    while(i < 30)
       i++;
     b = c - b;
     return b * 2;
@@ -83,7 +83,7 @@ function test4(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 10)
+    while(i < 30)
       i++;
     b = c - b;
     return b * 2;
@@ -94,7 +94,7 @@ function test5(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 10)
+    while(i < 30)
       i++;
     b = c - b;
     return b * 2;
@@ -105,7 +105,7 @@ function test6(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 10)
+    while(i < 30)
       i++;
     b = c - b;
     return b * 2;
@@ -116,7 +116,7 @@ function test7(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 10)
+    while(i < 30)
       i++;
     b = c - b;
     return b * 2;
@@ -127,7 +127,7 @@ function test8(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 10)
+    while(i < 30)
       i++;
     b = c - b;
     return b * 2;
@@ -138,7 +138,7 @@ function test9(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 10)
+    while(i < 30)
       i++;
     b = c - b;
     return b * 2;
@@ -152,7 +152,7 @@ function test10(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 10)
+    while(i < 30)
        i++;
     b = c - b;
     return b * 2;
@@ -165,7 +165,7 @@ function test11(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 10)
+    while(i < 30)
        i++;
     b = c - b;
     return b * 2;
@@ -177,7 +177,7 @@ function test12(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 10)
+    while(i < 30)
       i++;
     b = c - b;
     return b * 2;
@@ -189,7 +189,7 @@ function test13(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 10)
+    while(i < 30)
       i++;
     b = c - b;
     return b * 2;
@@ -201,7 +201,7 @@ function test14(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 10)
+    while(i < 30)
       i++;
     b = c - b;
     return b * 2;
@@ -212,7 +212,7 @@ function test15(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 10)
+    while(i < 30)
       i++;
     b = c - b;
     return b * 2;
@@ -223,7 +223,7 @@ function test16(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 10)
+    while(i < 30)
       i++;
     b = c - b;
     return b * 2;
@@ -234,7 +234,7 @@ function test17(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 10)
+    while(i < 30)
       i++;
     b = c - b;
     return b * 2;
@@ -245,7 +245,7 @@ function test18(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 10)
+    while(i < 30)
       i++;
     b = c - b;
     return b * 2;
@@ -256,7 +256,7 @@ function test19(obj) {
     b = 24 * 1334 + 434;
     b = c + 32;
     var i = 0;
-    while(i < 10)
+    while(i < 30)
       i++;
     b = c - b;
     return b * 2;
@@ -266,67 +266,67 @@ function test19(obj) {
 
 
 
-for(i=1; i < 1000; i++)
+for(i=1; i < 100; i++)
   j=test(i);
 
-for(i=1; i < 1000; i++)
+for(i=1; i < 100; i++)
   k = test2(i);
 
-for(i=1; i<1000; i++)
+for(i=1; i<100; i++)
   k = test3(i);
 
 
-for(i=1; i < 1000; i++)
+for(i=1; i < 100; i++)
   j=test4(i);
 
-for(i=1; i < 1000; i++)
+for(i=1; i < 100; i++)
   k=test5(i);
 
-for(i=1; i<1000; i++)
+for(i=1; i<100; i++)
   k = test6(i);
   
 
-for(i=1; i < 1000; i++)
+for(i=1; i < 100; i++)
   j=test7(i);
 
-for(i=1; i < 1000; i++)
+for(i=1; i < 100; i++)
   k=test8(i);
 
-for(i=1; i<1000; i++)
+for(i=1; i<100; i++)
   k = test9(i);
 
 
-for(i=1; i<1000; i++)
+for(i=1; i<100; i++)
   k = test10(i);
 
 
-for(i=1; i < 1000; i++)
+for(i=1; i < 100; i++)
   j=test11(i);
 
-for(i=1; i < 1000; i++)
+for(i=1; i < 100; i++)
   k = test12(i);
 
-for(i=1; i<1000; i++)
+for(i=1; i<100; i++)
   k = test13(i);
 
 
-for(i=1; i < 1000; i++)
+for(i=1; i < 100; i++)
   j=test14(i);
 
-for(i=1; i < 1000; i++)
+for(i=1; i < 100; i++)
   k=test15(i);
 
-for(i=1; i<1000; i++)
+for(i=1; i<100; i++)
   k = test16(i);
   
 
-for(i=1; i < 1000; i++)
+for(i=1; i < 100; i++)
   j=test17(i);
 
-for(i=1; i < 1000; i++)
+for(i=1; i < 100; i++)
   k=test18(i);
 
-for(i=1; i<1000; i++)
+for(i=1; i<100; i++)
   k = test19(i);
 for (i =1; i<1000; i++)
   if(i == 3)

@@ -22,6 +22,22 @@ test18, 3, 5;
 test19, 3, 5;
 test2, 2, 10;
 test3, 2, 10;
+test4, 2, 10;
+test5, 2, 10;
+test6, 2, 10;
+test7, 2, 10;
+test8, 2, 10;
+test9, 2, 10;
+test10, 2, 10;
+test11, 2, 10;
+test12, 2, 10;
+test13, 2, 10;
+test14, 2, 10;
+test15, 2, 10;
+test16, 2, 10;
+test17, 2, 10;
+test18, 2, 10;
+test19, 2, 10;
 */
 var abc = 20;
 
