@@ -17,18 +17,6 @@ function test(obj) {
     return b * 2;
 
 }
-function test2(obj) {
-    var b = obj*2+obj + 77;
-    c = 91;
-    b = 24 * 1334 + 434;
-    b = c + 32;
-    var i = 0;
-    while(i < 100000)
-      i++;
-    b = c - b;
-    return b * 2;
-}
-
 function test3(obj) {
     var b = obj*2+obj + 77;
     c = 91;
@@ -41,7 +29,7 @@ function test3(obj) {
     return b * 2;
 }
 
-for(i=1; i < 100; i++)
+for(i=1; i < 1000; i++)
   j=test(i);
 
 for(i=1; i < 100; i++)
