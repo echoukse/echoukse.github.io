@@ -11,7 +11,7 @@ function test(obj) {
     b = c + 32;
     if(obj == 1)
       return 3;
-    i = 0;
+    var i = 0;
     while(i < 100)
       i++;
     b = c - b;
