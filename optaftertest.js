@@ -49,13 +49,13 @@ test2(3);
 test2(4);
 test3(5);
 test3(5);
-for(i=1; i < 129; i++)
+for(i=1; i < 150; i++)
   j=test(i);
 
-for(i=1; i < 129; i++)
+for(i=1; i < 150; i++)
   k=test2(i);
 
-for(i=1; i<129; i++)
+for(i=1; i<150; i++)
   k = test3(i);
 
 for (i =1; i<1000; i++)
